@@ -1,3 +1,11 @@
+
+body{
+	background-color: #f3f3f3;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	margin-bottom: 15%;
+}
 .clear {
 	clear: both;
 }
@@ -5,7 +13,10 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 30px;	
+}
+#headshot img{
+	border-radius: 50%;
 }
 
 #name {
@@ -15,13 +26,44 @@
 #contactDetails {
 	float: right;
 }
+#contactDetails ul li a {
+	text-decoration: none;
+	color: #181818;
+}
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+h1, h2{
+	font-size: 26px;
+	font-family: Rokkitt, Arial, Helvetica, sans-serif;
+	font-weight: 750;
+	color: #444444;
+}
+
+section{
+	border-bottom: 1px solid #dedede;
+}
+.keySkills{
+	list-style: none;
+	column-count: 3;
+}
+.subDetails{
+	color: #181818;
+font-style: italic;
+}
+.sectionTitle h1 {
+	color: #cf8a05;
 }
