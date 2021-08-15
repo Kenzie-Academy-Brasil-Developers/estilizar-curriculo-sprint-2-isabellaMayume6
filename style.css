@@ -21,8 +21,17 @@ body{
 
 #name {
 	float: left;
+	margin-left: 3%;
 }
+#name h1{
+	font-size: 38px;
+	margin-bottom: -10% ;
+}
+#name h2{
+	font-weight: 500;
+	font-size: 30px;
 
+}
 #contactDetails {
 	float: right;
 }
@@ -35,6 +44,7 @@ body{
 	float: left;
 	width: 25%;
 	color: #cf8a05;
+
 }
 
 .sectionContent {
@@ -66,4 +76,5 @@ font-style: italic;
 }
 .sectionTitle h1 {
 	color: #cf8a05;
+	font-weight: 100;
 }
